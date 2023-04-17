@@ -1,0 +1,20 @@
+{
+    "name": "russel/info",
+    "type": "project",
+    "license": "grpl",
+    "autoload": {
+        "psr-4": {
+            "Russel\\Info\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "russelgandawali",
+            "email": "lessurgandawali@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "google/cloud-firestore": "^1.29"
+    }
+}
